@@ -1,0 +1,12 @@
+#+title: Dockerize
+
+* Introduction
+  This repository describes how to build docker image from source code.
+  A simple example code based on golang will be used for the explanation.
+
+* Building an image
+  After =-t= flag, you can replace it with your own repository's name.
+
+#+begin_src bash
+  docker build -f Dockerfile -t hackartist/go-hello-world
+#+end_src
